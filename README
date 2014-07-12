@@ -1,0 +1,13 @@
+
+Views hex or binary representation of any value.
+Usage:
+        bview <0b...>
+        bview <0x...>
+
+
+root@ubuntu # bview 0xa5a5
+0x0000a5a5:     00000000000000001010010110100101
+                        |       |       |
+                        23      15      7
+root@ubuntu #
+
